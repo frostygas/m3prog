@@ -22,8 +22,9 @@ namespace CalculateOpdracht1
 
 
             //nu ben je weer jarig, tel 1 bij je leeftijd op, gebruik de ++; constructie (zie video)
+            leeftijdStudent++;
             Console.WriteLine("Year 3 Happy birthday!");
-            Console.WriteLine($"je bent nu {leeftijdStudent++}");
+            Console.WriteLine($"je bent nu {leeftijdStudent}");
 
 
             //nu moet er 19 in de console staan als je het programma runt
